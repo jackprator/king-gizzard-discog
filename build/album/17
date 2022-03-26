@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title></title>
+    <!-- Bootstrap -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/fontawesome-all.min.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    
+<div class ="container">
+  <div class="row header">
+    <div class="col text-center">
+			<!-- the full dict for a albumident is sent here as album by the route -->
+
+			<h1>L.W.</h1>
+		</div>
+			<!-- NOTE the pattern for pointing to a file inside the static folder -->
+			<div class="row">
+    		<div class="col-sm-6 first-column">
+					<img class="img-fluid img-thumbnail" src="../static/images/KG17.png" alt="album cover">
+				</div>
+				<div class="col-sm-6 second-column">
+					<p>L.W., the 17th King Gizzard and the Lizard Wizard album
+						
+						was released in 2021.
+						
+
+						While still keeping with the band's signature style, it falls into the Psychedelic Rock genre. This album has a runtime of 42 minutes and 10 seconds.
+
+						
+						It curently has an average score of 3.35 out of 5 on <a href="https://rateyourmusic.com/">Rate Your Music</a>.
+						
+					</p>
+					<!-- NOTE the way to link to a route: Use the function name -->
+					<p><a href="../index.html">Return to the list</a> to select a different album.</p>
+				</div>
+			</div>
+		</div>
+  </div>
+</div>
+
+
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
