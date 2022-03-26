@@ -12,7 +12,7 @@ Bootstrap(app)
 album_list = convert_to_dict("KGAlbums.csv")
 
 # create a list of tuples in which the first item is the number
-# (Presidency) and the second item is the name (President)
+# (Album) and the second item is the name (Title)
 pairs_list = []
 for p in album_list:
     pairs_list.append( (p['Album'], p['Title']) )
